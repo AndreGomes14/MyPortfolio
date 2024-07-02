@@ -22,9 +22,10 @@ def get_price(ticker):
 
 # Function to calculate profit/loss per stock and total portfolio value
 def calculate_statistics(data, current_prices):
-    total_portfolio_value = 0
-    total_loss = 0
-    total_profit = 0
+    total_portfolio_value = 0.0
+    total_loss = 0.0
+    total_profit = 0.0
+    total_invested_funds = 0.0  # Initialize total invested funds
     portfolio_by_broker = {}
 
     for stock in data:
@@ -53,15 +54,17 @@ def calculate_statistics(data, current_prices):
 
             # Calculate total investment value
             total_investment_value = avg_buy_value * number_of_shares
+            total_invested_funds += total_investment_value  # Accumulate total invested funds
 
             # Determine broker and add statistics by broker
             broker = stock['Broker']
             if broker not in portfolio_by_broker:
                 portfolio_by_broker[broker] = {
-                    'Total Portfolio Value': 0,
-                    'Total Investment (€)': 0,
-                    'Total Loss (€)': 0,
-                    'Total Profit (€)': 0,
+                    'Total Portfolio Value': 0.0,
+                    'Total Investment (€)': 0.0,
+                    'Total Loss (€)': 0.0,
+                    'Total Profit (€)': 0.0,
+                    'Total Win (€)': 0.0,  # Initialize Total Win for the broker
                     'Stocks': []
                 }
 
@@ -69,33 +72,44 @@ def calculate_statistics(data, current_prices):
             portfolio_by_broker[broker]['Stocks'].append({
                 'Name': stock['Name'],
                 'Ticker': ticker,
-                'Total Investment (€)': total_investment_value,
-                'Average Buy Value (€)': avg_buy_value,
-                'Number of shares': number_of_shares,
-                'Total value (€)': total_value,
-                'Profit/Loss (€)': profit_loss_per_share,
-                'Percentage Change (%)': percentage_change,
-                'Total Stock Value (€)': total_stock_value
+                'Total Investment (€)': format(total_investment_value, '.2f'),
+                'Average Buy Value (€)': format(avg_buy_value, '.2f'),
+                'Number of shares': format(number_of_shares, '.2f'),
+                'Total value (€)': format(total_value, '.2f'),
+                'Profit/Loss (€)': format(profit_loss_per_share, '.2f'),
+                'Percentage Change (%)': format(percentage_change, '.2f'),
+                'Total Stock Value (€)': format(total_stock_value, '.2f')
             })
 
-            # Update broker's total portfolio value, total loss, total profit, and total investment
+            # Update broker's total portfolio value, total loss, total profit, total win, and total investment
             portfolio_by_broker[broker]['Total Portfolio Value'] += total_stock_value
             portfolio_by_broker[broker]['Total Profit (€)'] += profit_loss_per_share if profit_loss_per_share > 0 else 0
             portfolio_by_broker[broker]['Total Loss (€)'] += abs(profit_loss_per_share) if profit_loss_per_share < 0 else 0
             portfolio_by_broker[broker]['Total Investment (€)'] += total_investment_value
+            portfolio_by_broker[broker]['Total Win (€)'] += profit_loss_per_share if profit_loss_per_share > 0 else 0  # Accumulate Total Win
 
-    # Calculate top 3 winners and losers based on profit/loss per share for each broker
+    # Calculate net profit for each broker
     for broker, broker_data in portfolio_by_broker.items():
+        broker_data['Total Profit (€)'] = format(broker_data['Total Win (€)'] - broker_data['Total Loss (€)'], '.2f')  # Calculate net profit
+        broker_data['Total Portfolio Value'] = format(broker_data['Total Portfolio Value'], '.2f')
+        broker_data['Total Investment (€)'] = format(broker_data['Total Investment (€)'], '.2f')
+        broker_data['Total Loss (€)'] = format(broker_data['Total Loss (€)'], '.2f')
+        broker_data['Total Win (€)'] = format(broker_data['Total Win (€)'], '.2f')
         sorted_stocks = sorted(broker_data['Stocks'], key=lambda x: x['Profit/Loss (€)'], reverse=True)
         broker_data['Top 3 Winners by Profit (€)'] = sorted_stocks[:3]
         broker_data['Top 3 Losers by Profit (€)'] = sorted_stocks[-3:]
 
+    # Calculate total net profit
+    total_profit_net = total_profit - total_loss
+
     # Prepare JSON object
     statistics = {
         'Name': f'Statistics_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}',
-        'Total Portfolio Value (€)': total_portfolio_value,
-        'Total Profit (€)': total_profit,
-        'Total Loss (€)': total_loss,
+        'Total Portfolio Value (€)': format(total_portfolio_value, '.2f'),
+        'Total Invested Funds (€)': format(total_invested_funds, '.2f'),
+        'Total Win (€)': format(total_profit, '.2f'),  # Add total win
+        'Total Profit (€)': format(total_profit_net, '.2f'),  # Total profit as the difference between total win and total loss
+        'Total Loss (€)': format(total_loss, '.2f'),
         'Portfolio by Broker': portfolio_by_broker
     }
 

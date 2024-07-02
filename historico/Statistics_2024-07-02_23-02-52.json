@@ -1,0 +1,344 @@
+{
+    "Name": "Statistics_2024-07-02_23-02-52",
+    "Total Portfolio Value (€)": "35799.35",
+    "Total Invested Funds (€)": "28254.26",
+    "Total Win (€)": "7596.80",
+    "Total Profit (€)": "7545.09",
+    "Total Loss (€)": "51.72",
+    "Portfolio by Broker": {
+        "Trading 212": {
+            "Total Portfolio Value": "31697.55",
+            "Total Investment (€)": "24290.56",
+            "Total Loss (€)": "51.72",
+            "Total Profit (€)": "7406.98",
+            "Total Win (€)": "7458.70",
+            "Stocks": [
+                {
+                    "Name": "Advanced Micro Devices",
+                    "Ticker": "AMD.DE",
+                    "Total Investment (€)": "683.57",
+                    "Average Buy Value (€)": "135.64",
+                    "Number of shares": "5.04",
+                    "Total value (€)": "683.57",
+                    "Profit/Loss (€)": "65.11",
+                    "Percentage Change (%)": "9.53",
+                    "Total Stock Value (€)": "748.68"
+                },
+                {
+                    "Name": "Alphabet (Class C) ",
+                    "Ticker": "ABEC.DE",
+                    "Total Investment (€)": "329.52",
+                    "Average Buy Value (€)": "120.00",
+                    "Number of shares": "2.75",
+                    "Total value (€)": "329.52",
+                    "Profit/Loss (€)": "144.17",
+                    "Percentage Change (%)": "43.75",
+                    "Total Stock Value (€)": "473.69"
+                },
+                {
+                    "Name": "Amazon",
+                    "Ticker": "AMZ.DE",
+                    "Total Investment (€)": "576.33",
+                    "Average Buy Value (€)": "127.03",
+                    "Number of shares": "4.54",
+                    "Total value (€)": "576.33",
+                    "Profit/Loss (€)": "258.74",
+                    "Percentage Change (%)": "44.89",
+                    "Total Stock Value (€)": "835.07"
+                },
+                {
+                    "Name": "American Tower",
+                    "Ticker": "AMT",
+                    "Total Investment (€)": "278.65",
+                    "Average Buy Value (€)": "186.73",
+                    "Number of shares": "1.49",
+                    "Total value (€)": "278.65",
+                    "Profit/Loss (€)": "8.27",
+                    "Percentage Change (%)": "2.97",
+                    "Total Stock Value (€)": "286.92"
+                },
+                {
+                    "Name": "Apple",
+                    "Ticker": "APC.DE",
+                    "Total Investment (€)": "879.85",
+                    "Average Buy Value (€)": "164.71",
+                    "Number of shares": "5.34",
+                    "Total value (€)": "879.85",
+                    "Profit/Loss (€)": "212.55",
+                    "Percentage Change (%)": "24.16",
+                    "Total Stock Value (€)": "1092.40"
+                },
+                {
+                    "Name": "Berkshire Hathaway",
+                    "Ticker": "BRYN.DE",
+                    "Total Investment (€)": "532.79",
+                    "Average Buy Value (€)": "325.35",
+                    "Number of shares": "1.64",
+                    "Total value (€)": "532.79",
+                    "Profit/Loss (€)": "85.97",
+                    "Percentage Change (%)": "16.14",
+                    "Total Stock Value (€)": "618.77"
+                },
+                {
+                    "Name": "Coca Cola",
+                    "Ticker": "CCC3.DE",
+                    "Total Investment (€)": "378.76",
+                    "Average Buy Value (€)": "55.74",
+                    "Number of shares": "6.80",
+                    "Total value (€)": "378.76",
+                    "Profit/Loss (€)": "20.66",
+                    "Percentage Change (%)": "5.45",
+                    "Total Stock Value (€)": "399.42"
+                },
+                {
+                    "Name": "iShares Core MSCI World (ACC)",
+                    "Ticker": "EUNL.DE",
+                    "Total Investment (€)": "7780.93",
+                    "Average Buy Value (€)": "76.79",
+                    "Number of shares": "101.33",
+                    "Total value (€)": "7780.93",
+                    "Profit/Loss (€)": "1828.20",
+                    "Percentage Change (%)": "23.50",
+                    "Total Stock Value (€)": "9609.12"
+                },
+                {
+                    "Name": "iShares Core S&P 500 (ACC) ",
+                    "Ticker": "SXR8.DE",
+                    "Total Investment (€)": "7761.20",
+                    "Average Buy Value (€)": "427.67",
+                    "Number of shares": "18.15",
+                    "Total value (€)": "7761.20",
+                    "Profit/Loss (€)": "2018.48",
+                    "Percentage Change (%)": "26.01",
+                    "Total Stock Value (€)": "9779.68"
+                },
+                {
+                    "Name": "iShares S&P 500 IT Sector (ACC)",
+                    "Ticker": "QDVE.DE",
+                    "Total Investment (€)": "2520.31",
+                    "Average Buy Value (€)": "19.19",
+                    "Number of shares": "131.32",
+                    "Total value (€)": "2520.31",
+                    "Profit/Loss (€)": "1414.06",
+                    "Percentage Change (%)": "56.11",
+                    "Total Stock Value (€)": "3934.37"
+                },
+                {
+                    "Name": "Meta Platforms",
+                    "Ticker": "FB2A.DE",
+                    "Total Investment (€)": "512.78",
+                    "Average Buy Value (€)": "295.88",
+                    "Number of shares": "1.73",
+                    "Total value (€)": "512.78",
+                    "Profit/Loss (€)": "304.88",
+                    "Percentage Change (%)": "59.46",
+                    "Total Stock Value (€)": "817.66"
+                },
+                {
+                    "Name": "Microsoft",
+                    "Ticker": "MSF.DE",
+                    "Total Investment (€)": "434.89",
+                    "Average Buy Value (€)": "316.70",
+                    "Number of shares": "1.37",
+                    "Total value (€)": "434.89",
+                    "Profit/Loss (€)": "149.54",
+                    "Percentage Change (%)": "34.39",
+                    "Total Stock Value (€)": "584.43"
+                },
+                {
+                    "Name": "Nvidia",
+                    "Ticker": "NVD.DE",
+                    "Total Investment (€)": "568.90",
+                    "Average Buy Value (€)": "42.64",
+                    "Number of shares": "13.34",
+                    "Total value (€)": "568.90",
+                    "Profit/Loss (€)": "948.07",
+                    "Percentage Change (%)": "166.65",
+                    "Total Stock Value (€)": "1516.97"
+                },
+                {
+                    "Name": "Prologis",
+                    "Ticker": "PLD",
+                    "Total Investment (€)": "278.64",
+                    "Average Buy Value (€)": "122.08",
+                    "Number of shares": "2.28",
+                    "Total value (€)": "278.64",
+                    "Profit/Loss (€)": "-20.25",
+                    "Percentage Change (%)": "-7.27",
+                    "Total Stock Value (€)": "258.40"
+                },
+                {
+                    "Name": "Realty Income",
+                    "Ticker": "O",
+                    "Total Investment (€)": "327.64",
+                    "Average Buy Value (€)": "57.85",
+                    "Number of shares": "5.66",
+                    "Total value (€)": "327.64",
+                    "Profit/Loss (€)": "-30.70",
+                    "Percentage Change (%)": "-9.37",
+                    "Total Stock Value (€)": "296.94"
+                },
+                {
+                    "Name": "Tesla",
+                    "Ticker": "TL0.DE",
+                    "Total Investment (€)": "445.81",
+                    "Average Buy Value (€)": "213.37",
+                    "Number of shares": "2.09",
+                    "Total value (€)": "445.81",
+                    "Profit/Loss (€)": "-0.77",
+                    "Percentage Change (%)": "-0.17",
+                    "Total Stock Value (€)": "445.04"
+                }
+            ],
+            "Top 3 Winners by Profit (€)": [
+                {
+                    "Name": "Nvidia",
+                    "Ticker": "NVD.DE",
+                    "Total Investment (€)": "568.90",
+                    "Average Buy Value (€)": "42.64",
+                    "Number of shares": "13.34",
+                    "Total value (€)": "568.90",
+                    "Profit/Loss (€)": "948.07",
+                    "Percentage Change (%)": "166.65",
+                    "Total Stock Value (€)": "1516.97"
+                },
+                {
+                    "Name": "Berkshire Hathaway",
+                    "Ticker": "BRYN.DE",
+                    "Total Investment (€)": "532.79",
+                    "Average Buy Value (€)": "325.35",
+                    "Number of shares": "1.64",
+                    "Total value (€)": "532.79",
+                    "Profit/Loss (€)": "85.97",
+                    "Percentage Change (%)": "16.14",
+                    "Total Stock Value (€)": "618.77"
+                },
+                {
+                    "Name": "American Tower",
+                    "Ticker": "AMT",
+                    "Total Investment (€)": "278.65",
+                    "Average Buy Value (€)": "186.73",
+                    "Number of shares": "1.49",
+                    "Total value (€)": "278.65",
+                    "Profit/Loss (€)": "8.27",
+                    "Percentage Change (%)": "2.97",
+                    "Total Stock Value (€)": "286.92"
+                }
+            ],
+            "Top 3 Losers by Profit (€)": [
+                {
+                    "Name": "Realty Income",
+                    "Ticker": "O",
+                    "Total Investment (€)": "327.64",
+                    "Average Buy Value (€)": "57.85",
+                    "Number of shares": "5.66",
+                    "Total value (€)": "327.64",
+                    "Profit/Loss (€)": "-30.70",
+                    "Percentage Change (%)": "-9.37",
+                    "Total Stock Value (€)": "296.94"
+                },
+                {
+                    "Name": "Prologis",
+                    "Ticker": "PLD",
+                    "Total Investment (€)": "278.64",
+                    "Average Buy Value (€)": "122.08",
+                    "Number of shares": "2.28",
+                    "Total value (€)": "278.64",
+                    "Profit/Loss (€)": "-20.25",
+                    "Percentage Change (%)": "-7.27",
+                    "Total Stock Value (€)": "258.40"
+                },
+                {
+                    "Name": "Tesla",
+                    "Ticker": "TL0.DE",
+                    "Total Investment (€)": "445.81",
+                    "Average Buy Value (€)": "213.37",
+                    "Number of shares": "2.09",
+                    "Total value (€)": "445.81",
+                    "Profit/Loss (€)": "-0.77",
+                    "Percentage Change (%)": "-0.17",
+                    "Total Stock Value (€)": "445.04"
+                }
+            ]
+        },
+        "XTB": {
+            "Total Portfolio Value": "4101.80",
+            "Total Investment (€)": "3963.70",
+            "Total Loss (€)": "0.00",
+            "Total Profit (€)": "138.11",
+            "Total Win (€)": "138.11",
+            "Stocks": [
+                {
+                    "Name": "iShares Core S&P 500 (ACC) ",
+                    "Ticker": "SXR8.DE",
+                    "Total Investment (€)": "3369.12",
+                    "Average Buy Value (€)": "524.45",
+                    "Number of shares": "6.42",
+                    "Total value (€)": "3368.26",
+                    "Profit/Loss (€)": "92.83",
+                    "Percentage Change (%)": "2.76",
+                    "Total Stock Value (€)": "3461.95"
+                },
+                {
+                    "Name": "iShares S&P 500 IT Sector (ACC)",
+                    "Ticker": "QDVE.DE",
+                    "Total Investment (€)": "594.58",
+                    "Average Buy Value (€)": "27.84",
+                    "Number of shares": "21.36",
+                    "Total value (€)": "594.66",
+                    "Profit/Loss (€)": "45.28",
+                    "Percentage Change (%)": "7.61",
+                    "Total Stock Value (€)": "639.86"
+                }
+            ],
+            "Top 3 Winners by Profit (€)": [
+                {
+                    "Name": "iShares Core S&P 500 (ACC) ",
+                    "Ticker": "SXR8.DE",
+                    "Total Investment (€)": "3369.12",
+                    "Average Buy Value (€)": "524.45",
+                    "Number of shares": "6.42",
+                    "Total value (€)": "3368.26",
+                    "Profit/Loss (€)": "92.83",
+                    "Percentage Change (%)": "2.76",
+                    "Total Stock Value (€)": "3461.95"
+                },
+                {
+                    "Name": "iShares S&P 500 IT Sector (ACC)",
+                    "Ticker": "QDVE.DE",
+                    "Total Investment (€)": "594.58",
+                    "Average Buy Value (€)": "27.84",
+                    "Number of shares": "21.36",
+                    "Total value (€)": "594.66",
+                    "Profit/Loss (€)": "45.28",
+                    "Percentage Change (%)": "7.61",
+                    "Total Stock Value (€)": "639.86"
+                }
+            ],
+            "Top 3 Losers by Profit (€)": [
+                {
+                    "Name": "iShares Core S&P 500 (ACC) ",
+                    "Ticker": "SXR8.DE",
+                    "Total Investment (€)": "3369.12",
+                    "Average Buy Value (€)": "524.45",
+                    "Number of shares": "6.42",
+                    "Total value (€)": "3368.26",
+                    "Profit/Loss (€)": "92.83",
+                    "Percentage Change (%)": "2.76",
+                    "Total Stock Value (€)": "3461.95"
+                },
+                {
+                    "Name": "iShares S&P 500 IT Sector (ACC)",
+                    "Ticker": "QDVE.DE",
+                    "Total Investment (€)": "594.58",
+                    "Average Buy Value (€)": "27.84",
+                    "Number of shares": "21.36",
+                    "Total value (€)": "594.66",
+                    "Profit/Loss (€)": "45.28",
+                    "Percentage Change (%)": "7.61",
+                    "Total Stock Value (€)": "639.86"
+                }
+            ]
+        }
+    }
+}
