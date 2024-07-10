@@ -5,7 +5,7 @@ from datetime import datetime
 from collections import defaultdict
 
 # Directory containing the JSON files. Historic directory.
-directory = ''
+directory = 'C:\\Users\\mw3an\\PycharmProjects\\pythonProject\\MyStocksPortfolio\\historico'
 
 # Function to read JSON files from the directory
 def read_json_files(directory):

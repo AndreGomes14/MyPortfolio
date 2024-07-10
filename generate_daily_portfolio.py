@@ -127,7 +127,7 @@ def generate_statistics_json(statistics):
     print(f'Statistics saved to {filename}')
 
 def main():
-    csv_file = 'data_.csv'  # Change to your .csv name
+    csv_file = 'data.csv'  # Change to your .csv name
     data = read_csv(csv_file)
 
     current_prices = {row['ticker']: get_price(row['ticker']) for row in data}

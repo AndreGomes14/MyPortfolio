@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV File</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Upload CSV File</h1>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul class="flash-messages">
+        {% for message in messages %}
+        <li>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+    <form method="post" enctype="multipart/form-data" action="{{ url_for('upload_file') }}">
+        <input type="file" name="file" accept=".csv" required><br><br>
+        <button type="submit">Upload</button>
+    </form>
+</div>
+</body>
+</html>
